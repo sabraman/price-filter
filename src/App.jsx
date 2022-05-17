@@ -35,9 +35,7 @@ function App() {
 							{!!course.prices[0] ? ' from ' + course.prices[0] : ''}
 							{!!course.prices[1] ? ' to ' + course.prices[1] : ''}
 							<span >{!course.prices[0] && !course.prices[1] ? ' not available' : ' \u20BD'} </span> </p>
-					})
-					
-					}
+					})}
 			</div>
 		</div>
 	)
